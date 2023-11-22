@@ -5,7 +5,7 @@ public class exp2_6 {
 
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        System.out.println(Fib(n - 1));
+        System.out.println(Fib(n - 2));
         input.close();
     }
 

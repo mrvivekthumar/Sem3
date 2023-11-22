@@ -29,7 +29,6 @@ class rectangle extends shape {
     rectangle(int a, int b) {
         length = a;
         width = b;
-
     }
 
     void display() {

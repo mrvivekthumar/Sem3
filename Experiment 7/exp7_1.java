@@ -39,7 +39,7 @@ class Calc extends Frame implements ActionListener {
         if (s == "Add") {
             ans = a + b;
         }
-        if (s == "Mul") {
+        if (e.getActionCommand().equals("Mul")) {
             ans = a * b;
         }
         if (s == "Sub") {

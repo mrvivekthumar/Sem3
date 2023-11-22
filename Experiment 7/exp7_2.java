@@ -10,10 +10,9 @@ class canva extends Frame implements ItemListener {
     canva() {
         setSize(500, 500);
         setVisible(true);
-        // setLayout(null);
         setLayout(new FlowLayout());
         c = new CheckboxGroup();
-        c1 = new Checkbox("rectangle", c, true);
+        c1 = new Checkbox("rectangle", c, false);
         c2 = new Checkbox("circle", c, false);
 
         add(c1);
@@ -37,8 +36,8 @@ class canva extends Frame implements ItemListener {
     public void paint(Graphics g) {
         if (rs == 1) {
             g.drawRect(50, 50, 50, 50);
-            g.setColor(Color.BLUE);
-            g.fillRect(50, 50, 50, 50);
+            // g.setColor(Color.BLUE);
+            // g.fillRect(50, 50, 50, 50);
             rs = 0;
         }
         if (rs == 2) {

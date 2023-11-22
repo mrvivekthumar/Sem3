@@ -1,6 +1,5 @@
 import java.awt.Frame;
 import java.awt.*;
-// import java.awt.Graphics.*;
 
 class MyFrame extends Frame {
     MyFrame() {
@@ -20,7 +19,7 @@ class MyFrame extends Frame {
         int y = 110;
         int z = 180;
         for (int i = 1; i <= 10; i++) {
-            g.drawString("  " + i, y, z);
+            g.drawString(" " + i, y, z);
             z += 50;
         }
 
@@ -29,7 +28,7 @@ class MyFrame extends Frame {
         int i, j;
         for (i = 1; i <= 10; i++) {
             for (j = 1; j <= 10; j++) {
-                g.drawString((i * j) + "    ", a, b);
+                g.drawString((i * j) + " ", a, b);
                 a += 70;
             }
             a = 170;

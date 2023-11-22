@@ -13,7 +13,6 @@ public class exp3_4 {
                 temp = str.charAt(i);
                 temp = (char) (temp - 32);
                 str.setCharAt(i, temp);
-
             }
         }
         System.out.println(str);

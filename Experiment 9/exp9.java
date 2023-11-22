@@ -15,7 +15,7 @@ class Array extends Frame implements ActionListener {
       t1 = new TextField(10);
       t2 = new TextField(10);
       b = new Button("Show");
-      setLayout(new GridLayout(2, 2));
+      setLayout(new FlowLayout());
       add(t1);
       add(t2);
       add(b);
